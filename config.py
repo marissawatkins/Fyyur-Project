@@ -10,5 +10,5 @@ DEBUG = True
 
 
 #  IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = 'postgres://postgres:@localhost:5432/fyyurapp'
+SQLALCHEMY_DATABASE_URI = 'postgres://postgres:Lamp,post1@localhost:5432/fyyurapp'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
