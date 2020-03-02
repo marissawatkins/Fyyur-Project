@@ -23,7 +23,7 @@ from config import *
 #----------------------------------------------------------------------------#
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://postgres:Lamp,post1@localhost:5432/fyyurapp'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://postgres:password@localhost:5432/fyyurapp'
 moment = Moment(app)
 app.config.from_object('config')
 db = SQLAlchemy(app)
